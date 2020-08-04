@@ -1,4 +1,4 @@
-package com.assessment.spring.app.library;
+package com.assessment.spring.app.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -16,9 +16,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.assessment.spring.app.exception.LibraryNotFoundException;
+import com.assessment.spring.app.model.Library;
+import com.assessment.spring.app.repository.LibraryRepository;
+
 @RestController
 @CrossOrigin(origins = "*")
-public class LibraryResource {
+public class LibraryController {
 
 	@Autowired
 	private LibraryRepository libraryRepository;

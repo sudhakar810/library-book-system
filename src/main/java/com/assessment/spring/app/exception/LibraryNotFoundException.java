@@ -1,4 +1,4 @@
-package com.assessment.spring.app.library;
+package com.assessment.spring.app.exception;
 
 public class LibraryNotFoundException extends RuntimeException {
 

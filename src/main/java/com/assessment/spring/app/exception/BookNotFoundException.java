@@ -1,4 +1,4 @@
-package com.assessment.spring.app.book;
+package com.assessment.spring.app.exception;
 
 public class BookNotFoundException extends RuntimeException {
 

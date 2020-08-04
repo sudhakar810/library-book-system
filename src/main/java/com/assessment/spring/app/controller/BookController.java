@@ -1,4 +1,4 @@
-package com.assessment.spring.app.book;
+package com.assessment.spring.app.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -17,9 +17,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.assessment.spring.app.exception.BookNotFoundException;
+import com.assessment.spring.app.model.Book;
+import com.assessment.spring.app.repository.BookRepository;
+
 @RestController
 @CrossOrigin(origins = "*")
-public class BookResource {
+public class BookController {
 
 	@Autowired
 	private BookRepository bookRepository;

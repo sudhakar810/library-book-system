@@ -1,4 +1,4 @@
-package com.assessment.spring.app.book;
+package com.assessment.spring.app.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import com.assessment.spring.app.library.Library;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity

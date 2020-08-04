@@ -1,4 +1,4 @@
-package com.assessment.spring.app.library;
+package com.assessment.spring.app.model;
 
 import java.util.List;
 import javax.persistence.Column;
@@ -7,8 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-
-import com.assessment.spring.app.book.Book;
 
 @Entity
 public class Library {
