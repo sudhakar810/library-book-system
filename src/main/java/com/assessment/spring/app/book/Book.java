@@ -10,7 +10,6 @@ import javax.persistence.ManyToOne;
 
 import com.assessment.spring.app.library.Library;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 public class Book {
