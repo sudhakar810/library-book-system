@@ -1,7 +1,3 @@
---insert into student values(10001,'Ranga', 'E1234567');
-
---insert into student values(10002,'Ravi', 'A1234568');
-
 
 insert into library values(1,'Dynamic Library','IT');
 insert into library values(2,'Bridge Your Knowledge','CS');
